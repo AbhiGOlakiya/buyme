@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Poppins Light;
+    
+}
+body{
+    height:100vh;
+    width: 100vw;
+}
+.head{
+    
+    display:flex;
+    background-color: white;
+    color: blueviolet;
+    font-size: large;
+    border-bottom: 1px solid gray;
+
+}
+.submain{
+    position:absolute;
+    z-index:10;
+    left:0%;
+    top:100%;
+    display: none;
+
+}
+.sub{
+
+    padding: 25px;
+    background-color: rgb(3, 3, 116);
+    color:white;
+}
+.main{
+    margin-right:20px;
+    padding: 20px 25px;
+    position: relative;
+    
+}
+.head :hover{
+    background-color: #003f88;
+    color:white;
+    cursor: pointer;
+}
+.main:hover .submain{
+    display: block;
+}
+.photo{
+    position:relative;
+    height:60vh;
+    width:80vw;
+    /* background-color: black; */
+    border: 2px solid black;
+}
+.slider{
+    overflow: hidden;
+
+}
+.slider img{
+    position: absolute;
+
+}
+
+.main-img{
+    position:absolute;
+    top:3%;
+    left: 95%;
+    cursor:pointer;
+}
+.user{
+    display: none;
+    position:relative;
+    top:0px;
+    box-shadow: 0px 0px 5px black;
+    float:right;
+    width:20vw;
+    height:90vh;
+    background-color: white;
+}
+.user>img{
+    position: absolute;
+    left:35%;
+    top:5%;
+}
+.user>#text{
+    position: absolute;
+   top:25%;
+   left:48%;
+}
+.user>p{
+   
+  
+   
+}
+.page1{
+    width:100vw;
+    min-height:100vh;
+    margin-bottom: 40px;
+}
+.product{
+    width:98vw;
+    height:50vh;
+    /* border:1px solid black; */
+    margin-top: 40px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.product .small{
+    margin:auto;
+    height:50vh;
+    width:22vw;
+    border:1px solid black;
+    box-shadow: 0px 0px 1px black ;
+    border-radius: 20px;
+    overflow: hidden;  
+    cursor:pointer; 
+    padding:0px 15px;
+   
+}
+
+.small:hover{
+    box-shadow: 0px 0px 5px black ;
+   
+
+}
+.footer{
+    height:10vh;
+    width:100vw;
+    border-top:2px solid black;
+}
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer img{
+    margin-left:10px;
+    cursor: pointer;
+}
+.footer img:hover{
+    height:43px;
+    width:43px;
+}

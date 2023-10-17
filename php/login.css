@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.main {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+
+.sub {
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    width: 280px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.sub h1 {
+    text-align: center;
+    padding: 5px;
+}
+
+.email {
+    position: absolute;
+    top: 80px;
+}
+
+.password {
+    position: absolute;
+    top: 140px;
+}
+
+.email input {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+}
+
+.password input {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+}
+
+/* .password a {
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    text-decoration: none;
+} */
+
+.fpassword {
+    position:absolute;
+    top: 200px;
+    text-decoration: none;
+}
+
+.button input {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    top: 230px;
+    left: 110px;
+}
+
+p {
+    position: absolute;
+    top: 280px;
+    text-decoration: none;
+}
+img{
+    width:100vw;
+    height:100vh;
+   
+}

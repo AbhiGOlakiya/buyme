@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins Light;   
+}
+main{
+    height:100vh;
+    width:100vw;
+}
+.products{
+    min-height:50vh;
+    min-width:100vw;
+    border:1px solid black;
+    display:flex;
+    padding:0px 5px;   
+}
+.photo{
+    height:100%;
+    width:30vw;
+    /* border:1px solid black; */
+
+}
+.discription{
+    width:50%;
+    height:100%;
+    padding:10px 10px;
+
+}
+
+
+.discription p{
+    display: inline-block;
+}
+.discription #input{
+    width:40px;
+    padding:1px;
+    height:25px;
+    margin-top:2px;
+    text-align: center;
+    font-size: large;
+    border-radius: 5px;
+
+}
+.discription button{
+    padding:4px 5px;
+    border-radius: 5px;
+    margin:5px;
+}
+#cart{
+    font-size: larger;
+    background-color: rgb(222, 8, 8);
+    border-radius: 15px;
+    color:white;
+}
+#submit{
+    font-size: larger;
+    background-color: green;
+    border-radius: 15px;
+    color:white;
+
+
+}
+.discription2{
+    width:50%;
+    height:100%;
+    padding:10px 10px;
+}

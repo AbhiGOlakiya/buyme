@@ -1,0 +1,91 @@
+
+body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.main {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+   
+}
+
+.sub {
+    background-color: white;
+    border-radius: 10px;
+    height: 340px;
+    width: 280px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+
+
+.sub h1 {
+
+    text-align: center;
+    
+}
+
+.name {
+    position: absolute;
+    top: 100px;
+    
+}
+
+.email {
+    position: absolute;
+    top: 155px;
+}
+
+.password {
+    position: absolute;
+    top: 210px;
+}
+
+
+
+.name input {
+    position: absolute;
+    width: 260px;
+    height: 25px;
+   
+}
+
+.email input {
+    position: absolute;
+    width: 260px;
+    height: 25px;
+}
+
+.password input {
+    position: absolute;
+    width: 260px;
+    height: 25px;
+}
+
+.button input {
+    position: absolute;
+    width: 100PX;
+    height: 30px;
+    top: 275px;
+    left: 100px;
+}
+
+p {
+    position: absolute;
+    top: 310px;
+}
+.img{
+    width:100px;
+    height:100px;
+
+    background-color: red;
+   
+}
+
