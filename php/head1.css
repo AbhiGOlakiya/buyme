@@ -73,7 +73,7 @@ body{
     display: none;
     position:relative;
     top:0px;
-    box-shadow: 0px 0px 5px black;
+    /* box-shadow: 0px 0px 5px black; */
     float:right;
     width:20vw;
     height:90vh;
@@ -89,11 +89,7 @@ body{
    top:25%;
    left:48%;
 }
-.user>p{
-   
-  
-   
-}
+
 .page1{
     width:100vw;
     min-height:100vh;

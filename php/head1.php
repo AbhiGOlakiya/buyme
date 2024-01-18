@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 
 
@@ -23,8 +23,12 @@
             <li class="main">Home</li>
             <li class="main">Product
                 <ul class="submain">
-                <a href="mobile_main.php"><li class="sub">mobile </li></a>
-                 <a href="ipad_main.php">   <li class="sub">ipad</li></a>
+                    <a href="mobile_main.php">
+                        <li class="sub">mobile </li>
+                    </a>
+                    <a href="ipad_main.php">
+                        <li class="sub">ipad</li>
+                    </a>
                     <li class="sub">laptop</li>
                 </ul>
             </li>
@@ -41,27 +45,27 @@
     <div class="user">
         <img src="images/istockphoto-1337144146-612x612.jpg" width="100px" alt="">
         <h2 id="text">
-        <p><span></span></p>
+            <p><span></span></p>
         </h2>
-        
+
     </div>
     <div class="photo">
         <div class="slider">
-        
+
             <img src="https://m.media-amazon.com/images/G/31/img21/Wireless/ssserene/AppleNPI/Aplus/r1805_r1595_Product_Page_Flex_Module_Avail_Amazon_Desktop__en-IN_01._CB595156976_.png" height="100%" width="100%" alt="">
             <img src="" alt="">
             <img src="" alt="">
             <img src="" alt="">
         </div>
     </div>
-    
+
     <div class="page1">
         <div class="product">
             <div class="small">
-            <a href="mobile_main.php"><img  src="https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400" height="100%" width="100%" alt=""  ></a>
+                <a href="mobile_main.php"><img src="https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400" height="100%" width="100%" alt=""></a>
             </div>
             <div class="small">
-            <a href="ipad_main.php"><img src="	https://m.media-amazon.com/images/I/61PnHlc0HCL._SX679_.jpg" height="100%" width="100%" alt=""></a>
+                <a href="ipad_main.php"><img src="	https://m.media-amazon.com/images/I/61PnHlc0HCL._SX679_.jpg" height="100%" width="100%" alt=""></a>
             </div>
             <div class="small">
                 <img src="https://m.media-amazon.com/images/I/71YdE55GwjL._AC_UL480_FMwebp_QL65_.jpg" height="100%" width="100%" alt="">

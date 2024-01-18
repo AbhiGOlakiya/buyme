@@ -33,7 +33,14 @@ if(isset($_POST['submit'])){
 
 <body>
     <div class="main" method="post">
-        <img alt="" src="https://m.media-amazon.com/images/I/21ghlFmBoIL._FMpng_SX200_.png" class="qa-title" width="200">
+         
+        <div style="display:inline-flex;">
+        <img alt="" src="https://m.media-amazon.com/images/I/21ghlFmBoIL._FMpng_SX200_.png" class="qa-title" width="40%" height="30%">
+            <div>
+            <img src="	https://m.media-amazon.com/images/I/61PnHlc0HCL._SX679_.jpg
+" width="50%" height="100%" alt="">
+            </div>
+        </div>
         <div class="products">  
             <div class="photo">
                 <img src="https://m.media-amazon.com/images/I/61bK6PMOC3L._SX679_.jpg
@@ -128,9 +135,13 @@ Cellular Technology:	5G</h2>
         </div>
     </div>
     <script>
-        
+      
+            
+            
         let increment = document.querySelector(".plus")
-        let priceinc = document.getElementsByClassName(".price")
+        // let 
+
+        // let priceinc = document.getElementsByClassName(".price")
         
 
         increment.addEventListener("click", function(){
@@ -138,13 +149,35 @@ Cellular Technology:	5G</h2>
                 total= document.getElementById("input").value
                 total++;
                 let pri = document.getElementById("input").value = total;
+                increment.style.backgroundColor="grey";
+             
+                
+               setTimeout(() => {
+                if(increment.style.backgroundColor="grey"){
+                increment.style.backgroundColor="white";
+                }
+                else{
+                    increment.style.backgroundColor="grey";
+                }
+               },200);   
 
         })
 
         let decrement = document.querySelector(".minus")
+        
         decrement.addEventListener("click", function(){
+            decrement.style.backgroundColor="grey";
+                setTimeout(() => {
+                if(decrement.style.backgroundColor="grey"){
+                    decrement.style.backgroundColor="white";
+                }
+                else{
+                    decrement.style.backgroundColor="grey";
+                }
+               },200);
             let total ;
                 total= document.getElementById("input").value
+                
                 total--;
                 document.getElementById("input").value = total;
                 if(total<=1){
@@ -153,6 +186,10 @@ Cellular Technology:	5G</h2>
                 else{
                     document.getElementById("input").value = total;
                 }
+                
+                 
+
+               
         })
 
     </script>

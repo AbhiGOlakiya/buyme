@@ -6,12 +6,15 @@ document.addEventListener("DOMContentLoaded", function () {
     let one = true
     img.addEventListener("click", ()=>{
         
-        if(one){
+        if(one){    
         user.style.display = "block";
+        // user.style.position = "absolute";
+
         one=false
         }
         else{
         user.style.display = "none";
+        user.style.position = "absolute";
         one=true
         }
     });
