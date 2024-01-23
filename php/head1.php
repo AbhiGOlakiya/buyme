@@ -1,7 +1,7 @@
 <?php
 
 
-
+    
 
 ?>
 
@@ -55,7 +55,7 @@
             <img src="https://m.media-amazon.com/images/G/31/img21/Wireless/ssserene/AppleNPI/Aplus/r1805_r1595_Product_Page_Flex_Module_Avail_Amazon_Desktop__en-IN_01._CB595156976_.png" height="100%" width="100%" alt="">
             <img src="" alt="">
             <img src="" alt="">
-            <img src="" alt="">
+            <img src="" alt="">x
         </div>
     </div>
 
@@ -79,7 +79,7 @@
                 <img src="	https://m.media-amazon.com/images/I/71TPda7cwUL._SX679_.jpg" height="100%" width="100%" alt="">
             </div>
             <div class="small">
-                <img src="	https://m.media-amazon.com/images/I/81thV7SoLZL._SX679_.jpg" height="100%" width="100%" alt="">
+                <a href="headphone.php"> <img src="	https://m.media-amazon.com/images/I/81thV7SoLZL._SX679_.jpg" height="100%" width="100%" alt=""></a>
             </div>
 
         </div>
