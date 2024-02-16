@@ -14,8 +14,6 @@ if (isset($_POST['submit'])) {
     $top = mysqli_query($conn, $result1);
 }
 
-
-
 // if(isset($_POST['submit'])){
 //     // $query = "select * from "
 // }
@@ -73,7 +71,7 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
         <!--second-->
-    
+
         <div class="products">
             <div class="photo">
                 <img src="https://m.media-amazon.com/images/I/71E5zB1qbIL._SX679_.jpg
@@ -113,6 +111,7 @@ if (isset($_POST['submit'])) {
 " width="100%" height="100%" alt="">
             </div>
             <div class="discription">
+
                 <h1>Apple iPhone 14 Plus (128 GB) - Blue
                 </h1>
                 <p> <strike>59900</strike>
@@ -136,7 +135,6 @@ if (isset($_POST['submit'])) {
                     Operating System: IOS 14 <br>
                     Cellular Technology: 5G</h2>
             </div>
-
 
         </div>
     </div>
@@ -186,9 +184,6 @@ if (isset($_POST['submit'])) {
             } else {
                 document.getElementById("input").value = total;
             }
-
-
-
 
         })
     </script>

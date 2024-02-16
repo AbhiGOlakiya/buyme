@@ -32,7 +32,6 @@
      <title>Document</title>
      <link type="text/css" rel="stylesheet" href="register.css">
 
-     
  </head>
 
  <body>

@@ -4,11 +4,16 @@
     list-style: none;
     text-decoration: none;
     font-family: Poppins Light;
-    
+    /* overflow-x: hidden; */
 }
+::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+   background: transparent;  /* Optional: transparent scrollbar track */
+ }
 body{
     height:100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 .head{
     

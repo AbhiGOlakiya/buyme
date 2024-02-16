@@ -70,7 +70,6 @@ mysqli_query($connect, $tbl);
                 <br>
                 <button id="cart">Add to cart</button>
                 <button id="submit">Buy Online</button>
-
             </div>
 
             <div class="discription2">
