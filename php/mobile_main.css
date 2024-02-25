@@ -3,6 +3,10 @@
     margin: 0;
     font-family: Poppins Light;     
 }
+::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+   background: transparent;  /* Optional: transparent scrollbar track */
+ }
 
 .main{
     height:100vh;
@@ -14,7 +18,8 @@
     min-width:100vw;
     border:1px solid black;
     display:flex;
-    padding:0px 5px;   
+    padding:0px 5px;
+    opacity: 10;   
 }
 .photo{
     height:100%;

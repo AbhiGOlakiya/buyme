@@ -1,6 +1,7 @@
-<?php
+<!-- <?php
 
-?>
+
+        ?> -->
 
 
 <!DOCTYPE html>
@@ -29,7 +30,9 @@
                     <li class="sub">laptop</li>
                 </ul>
             </li>
-            <li class="main">Help</li>
+            <a href="help.php">
+                <li class="main">Help</li>
+            </a>
             <li class="main">Contect</li>
             <li class="main">Style</li>
 
