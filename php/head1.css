@@ -5,6 +5,7 @@
     text-decoration: none;
     font-family: Poppins Light;
     /* overflow-x: hidden; */
+    /* background-color:blueviolet; */
 }
 ::-webkit-scrollbar {
     width: 0; /* Remove scrollbar space */
@@ -16,13 +17,12 @@ body{
     overflow-x: hidden;
 }
 .head{
-    
     display:flex;
-    background-color: white;
-    color: blueviolet;
+    background-color: rgb(143, 104, 175);
+    /* color: blueviolet; */
+    color:black;
     font-size: large;
     border-bottom: 1px solid gray;
-
 }
 .submain{
     position:absolute;
@@ -30,10 +30,8 @@ body{
     left:0%;
     top:100%;
     display: none;
-
 }
 .sub{
-
     padding: 25px;
     background-color: rgb(3, 3, 116);
     color:white;
@@ -41,8 +39,7 @@ body{
 .main{
     margin-right:20px;
     padding: 20px 25px;
-    position: relative;
-    
+    position: relative;  
 }
 .head :hover{
     background-color: #003f88;
@@ -82,7 +79,6 @@ body{
     float:right;
     width:20vw;
     height:90vh;
-    background-color: white;
 }
 .user>img{
     position: absolute;
@@ -99,6 +95,7 @@ body{
     width:100vw;
     min-height:100vh;
     margin-bottom: 40px;
+    /* background-color: blueviolet; */
 }
 .product{
     width:98vw;
@@ -119,14 +116,11 @@ body{
     border-radius: 20px;
     overflow: hidden;  
     cursor:pointer; 
-    padding:0px 15px;
-   
+    /* padding:0px 15px; */
 }
 
 .small:hover{
     box-shadow: 0px 0px 5px black ;
-   
-
 }
 .footer{
     height:10vh;

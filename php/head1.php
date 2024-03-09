@@ -38,6 +38,7 @@
 
 
         </ul>
+        <div id="another">
         <div class="main-img">
             <img src="images/person_FILL0_wght400_GRAD0_opsz24.png" alt="">
         </div>
@@ -55,7 +56,7 @@
             <img src="https://m.media-amazon.com/images/G/31/img21/Wireless/ssserene/AppleNPI/Aplus/r1805_r1595_Product_Page_Flex_Module_Avail_Amazon_Desktop__en-IN_01._CB595156976_.png" height="100%" width="100%" alt="">
             <img src="" alt="">
             <img src="" alt="">
-            <img src="" alt="">x
+            <img src="" alt="">
         </div>
     </div>
 
@@ -84,12 +85,12 @@
 
         </div>
     </div>
-
+    </div>
     <footer class="footer">
         <h4>contect us</h4>
-        <img src="https://i.pinimg.com/564x/ca/3b/f0/ca3bf05cfab74677e5b73b130bd30991.jpg" alt="" height="40px" width="40px">
-        <img src="https://www.freeiconspng.com/uploads/whatsapp-black-logo-icon--24.png" height="40px" width="40px" alt="">
-        <img src="https://static.vecteezy.com/system/resources/previews/014/414/683/non_2x/instagram-black-logo-on-transparent-background-free-vector.jpg" height="40px" width="40px" alt="">
+       <a href=""> <img src="https://i.pinimg.com/564x/ca/3b/f0/ca3bf05cfab74677e5b73b130bd30991.jpg" alt="" height="40px" width="40px"></a>
+    <a href="https://web.whatsapp.com/" target="_blank"><img src="https://www.freeiconspng.com/uploads/whatsapp-black-logo-icon--24.png" height="40px" width="40px" alt=""></a>
+     <a href="">   <img src="https://static.vecteezy.com/system/resources/previews/014/414/683/non_2x/instagram-black-logo-on-transparent-background-free-vector.jpg" height="40px" width="40px" alt=""></a>
     </footer>
 </body>
 

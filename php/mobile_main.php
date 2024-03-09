@@ -56,7 +56,7 @@ if (isset($_POST['submit'])) {
                 <input type="text" id="input" value="1">
                 <button class="plus" type="button">+</button>
                 <br>
-                <button id="cart" name="submit">Add to cart</button>
+              <a href="cart.php"> <button id="cart" name="submit">Add to cart</button></a> 
                 <button id="submit">Buy Online</button>
 
             </div>
@@ -122,7 +122,7 @@ if (isset($_POST['submit'])) {
                 <input type="text" id="input" value="1">
                 <button class="plus" type="button">+</button>
                 <br>
-                <button id="cart">Add to cart</button>
+                <a href="cart.php"><button id="cart">Add to cart</button></a>
                 <button id="submit">Buy Online</button>
 
             </div>
