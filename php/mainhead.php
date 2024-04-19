@@ -1,7 +1,7 @@
 <!-- <?php
 
 
-        ?> -->
+?> -->
 
 
 <!DOCTYPE html>
@@ -11,15 +11,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="head1.css">
-    <script src="head1.js" render></script>
+    <link rel="stylesheet" href="mainhead.css">
+    <script src="mainhead.js" render></script>
 </head>
 
 <body>
     <div id="color">
         <ul class="head">
             <li class="main">Home</li>
-            <!-- <li class="main">Product -->
             <li class="main">Product
                 <ul class="submain">
                     <a href="mobile_main.php">
@@ -51,16 +50,6 @@
         </h2>
 
     </div>
-    <div class="photo">
-        <div class="slider">
-
-            <img src="https://m.media-amazon.com/images/G/31/img21/Wireless/ssserene/AppleNPI/Aplus/r1805_r1595_Product_Page_Flex_Module_Avail_Amazon_Desktop__en-IN_01._CB595156976_.png" height="100%" width="100%" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-    </div>
-
     <div class="page1">
         <div class="product">
             <div class="small">
