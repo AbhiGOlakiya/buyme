@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div>
+    <div id="color">
         <ul class="head">
             <li class="main">Home</li>
             <li class="main">Product
@@ -63,13 +63,16 @@
     <div class="page1">
         <div class="product">
             <div class="small">
-                <a href="mobile_main.php"><img src="https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400" height="100%" width="100%" alt=""></a>
+                <!-- <a href="mobile_main.php"><img src="https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400" height="100%" width="100%" alt=""></a> -->
+                <a href="mobile_main.php"><img src="https://store.storeimages.cdn-apple.com/4982/as-im…wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1693086290654" height="100%" width="100%" alt=""></a>
             </div>
             <div class="small">
-                <a href="ipad_main.php"><img src="	https://m.media-amazon.com/images/I/61PnHlc0HCL._SX679_.jpg" height="100%" width="100%" alt=""></a>
-            </div>
+                <!-- <a href="ipad_main.php"><img src="	https://m.media-amazon.com/images/I/61PnHlc0HCL._SX679_.jpg" height="100%" width="100%" alt=""></a> -->
+                <a href="ipad_main.php"><img src="https://imgs.search.brave.com/OMgmf_RJPlfMeZCO7fBBnr_Qitw6sjaOxMSU9z5SxJk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/cmVhbGl0ZS12aXJ0/dWVsbGUuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIzLzEy/L0xBcHBsZS1WaXNp/b24tUHJvLWVzdC1p/bC10cmFuc3BhcmVu/dC03NTh4NTA1LnBu/Zw" height="100%" width="100%" alt=""></a>
+                </div>
             <div class="small">
-                <img src="https://m.media-amazon.com/images/I/71YdE55GwjL._AC_UL480_FMwebp_QL65_.jpg" height="100%" width="100%" alt="">
+                <!-- <img src="https://m.media-amazon.com/images/I/71YdE55GwjL._AC_UL480_FMwebp_QL65_.jpg" height="100%" width="100%" alt=""> -->
+                <img src="https://imgs.search.brave.com/EXEHvPk0XLyQ5LpndTlSfWz7DWbLbOlGm0AnorRwEYY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYXJ0cy5jb20v/ZmlsZXMvOC9BcHBs/ZS1XYXRjaC1TZXJp/ZXMtNi1Eb3dubG9h/ZC1JbWFnZS5wbmc" height="100%" width="100%" alt="">
             </div>
         </div>
         <div class="product">
